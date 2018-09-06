@@ -1,38 +1,20 @@
 # Contributing
 
+Thanks for being willing to contribute!
+
+**Working on your first Pull Request?** You can learn how from this _free_ series
+[How to Contribute to an Open Source Project on GitHub][egghead]
+
 ## Setup
 
-```bash
-npm run setup
-```
-
-Speeding up Pull Requests workflow with [git-reflow](https://github.com/reenhanced/gitreflow).
+Install dependencies:
 
 ```bash
-gem install git_reflow
-git reflow setup
+npm install
 ```
 
-## Develop
+To make sure everything is working:
 
 ```bash
-git reflow start feature-name
-
-# Refresh with base branch (usually master)
-git reflow refresh
-
-# Submit Pull Request
-# First line is title, remaining is body
-git reflow review
-
-## Check PR status
-git reflow status
+npm run validate
 ```
-
-## Deliver
-
-```bash
-git reflow deliver
-```
-
-Ensure commit messages in `master` conform to [Conventional Commits](https://conventionalcommits.org/) spec.

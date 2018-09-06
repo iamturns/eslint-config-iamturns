@@ -3,7 +3,6 @@
 	"version": "0.0.0-semantically-released",
 	"description": "ESLint rules for my projects",
 	"scripts": {
-		"setup": "npm install && npm run validate",
 		"format": "kcd-scripts format && kcd-scripts lint --fix",
 		"lint": "kcd-scripts lint",
 		"validate": "kcd-scripts validate",
