@@ -1,0 +1,40 @@
+{
+	"name": "eslint-config-iamturns",
+	"version": "0.0.0-semantically-released",
+	"description": "ESLint rules for my projects",
+	"scripts": {
+		"format": "kcd-scripts format && kcd-scripts lint --fix",
+		"lint": "kcd-scripts lint",
+		"validate": "kcd-scripts validate",
+		"precommit": "kcd-scripts precommit",
+		"semantic-release": "semantic-release"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"eslint": "^5.5.0",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-prettier": "^2.6.2",
+		"eslint-plugin-react": "^7.11.1",
+		"kcd-scripts": "0.36.1",
+		"semantic-release": "15.9.12"
+	},
+	"peerDependencies": {
+		"eslint": "^5.5.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-prettier": "^2.6.2",
+		"eslint-plugin-react": "^7.11.1"
+	},
+	"author": "Matt Turnbull <matt@iamturns.com> (https://iamturns.com)",
+	"license": "MIT",
+	"homepage": "https://github.com/iamturns/eslint-config-iamturns",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iamturns/eslint-config-iamturns.git"
+	},
+	"bugs": {
+		"url": "https://github.com/iamturns/eslint-config-iamturns/issues"
+	}
+}
