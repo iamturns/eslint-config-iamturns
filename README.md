@@ -32,4 +32,4 @@ module.exports = {
 
 ## License
 
-Open source software [licensed as MIT](https://github.com/iamturns/iamturns-scripts/blob/master/LICENSE).
+Open source software [licensed as MIT](https://github.com/iamturns/eslint-config-iamturns/blob/master/LICENSE).
