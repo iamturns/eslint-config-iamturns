@@ -2,18 +2,6 @@
 
 ## Release
 
-Handled automatically by [CircleCI](https://circleci.com/).
-
-Ensure commit messages in `master` conform to [Conventional Commits](https://conventionalcommits.org/) spec.
-
-### Option 1: GitHub
-
-Use "Squash and Merge".
-
-### Option 2: CLI
-
-Using [git-reflow](https://github.com/reenhanced/gitreflow) (see [CONTRIBUTING.md](./CONTRIBUTING.md) for more).
-
-```bash
-git reflow deliver
-```
+1. Use "Squash and Merge". This keeps a clean history in `master`, with a full history available in Pull Requests.
+1. Write a message that conforms to [Conventional Commits](https://conventionalcommits.org/) spec.
+1. The release is handled automatically by [CircleCI](https://circleci.com/).
