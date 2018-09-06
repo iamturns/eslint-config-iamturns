@@ -19,7 +19,7 @@ ESLint will only look into your project `/node_modules` for plugins.
 Install all the necessary ESLint plugins to your project:
 
 ```bash
-npx install-peerdeps --dev eslint-config-iamturnms
+npx install-peerdeps --dev eslint-config-iamturns
 ```
 
 ## License
