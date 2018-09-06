@@ -16,10 +16,18 @@ ESLint rules for my projects.
 
 ESLint will only look into your project `/node_modules` for plugins.
 
-Install all the necessary ESLint plugins to your project:
+Install `eslint-config-iamturns` and all peer dependencies:
 
 ```bash
 npx install-peerdeps --dev eslint-config-iamturns
+```
+
+Within `eslintrc.js`:
+
+```javascript
+module.exports = {
+	extends: ["iamturns"],
+}
 ```
 
 ## License
