@@ -7,17 +7,22 @@
     "lint": "kcd-scripts lint",
     "validate": "kcd-scripts validate",
     "precommit": "kcd-scripts precommit",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "upgrade": "iamturns-scripts upgrade",
+    "upgrade-latest": "iamturns-scripts upgrade-latest",
+    "reinstall": "iamturns-scripts reinstall",
+    "reset": "iamturns-scripts reset"
   },
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.5.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
+    "iamturns-scripts": "^1.0.2",
     "kcd-scripts": "0.36.1",
     "semantic-release": "15.9.12"
   },
@@ -25,7 +30,6 @@
     "eslint": "^5.5.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1"
   },
   "author": "Matt Turnbull <matt@iamturns.com> (https://iamturns.com)",
