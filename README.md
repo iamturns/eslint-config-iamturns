@@ -26,7 +26,7 @@ Within `eslintrc.js`:
 
 ```javascript
 module.exports = {
-	extends: ["iamturns"],
+  extends: ["iamturns"],
 }
 ```
 
