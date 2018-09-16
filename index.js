@@ -1,8 +1,11 @@
 module.exports = {
-  extends: ["airbnb", "plugin:prettier/recommended"],
+  extends: ["airbnb", "prettier", "prettier/react", "prettier/standard"],
   parserOptions: {
     ecmaVersion: 9,
     sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   env: {
     node: true,
