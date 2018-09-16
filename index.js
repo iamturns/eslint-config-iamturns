@@ -1,11 +1,11 @@
 module.exports = {
-  extends: ["airbnb", "prettier", "prettier/react", "prettier/standard"],
+  extends: ["airbnb", "prettier", "prettier/react"],
   parserOptions: {
-    ecmaVersion: 9,
-    sourceType: "module",
+    ecmaVersion: 2018,
     ecmaFeatures: {
       jsx: true,
     },
+    sourceType: "module",
   },
   env: {
     node: true,
@@ -19,7 +19,5 @@ module.exports = {
     "react/destructuring-assignment": "off",
     // No jsx extension: https://github.com/facebook/create-react-app/issues/87#issuecomment-234627904
     "react/jsx-filename-extension": "off",
-    // Allow Prettier to format code
-    "react/jsx-one-expression-per-line": "off",
   },
 }
