@@ -18,3 +18,5 @@ To make sure everything is working:
 ```bash
 npm run validate
 ```
+
+[egghead]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
