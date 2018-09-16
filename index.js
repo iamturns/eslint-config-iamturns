@@ -1,5 +1,14 @@
 module.exports = {
   extends: ["airbnb", "plugin:prettier/recommended"],
+  parserOptions: {
+    ecmaVersion: 9,
+    sourceType: "module",
+  },
+  env: {
+    node: true,
+    browser: true,
+    jest: true,
+  },
   rules: {
     // Too restrictive. Better readability going from simple to more complex code as scrolling.
     "no-use-before-define": "off",
