@@ -28,10 +28,10 @@ Supports modern JavaScript: es2018, modules, jsx, jest, etc.
 
 ## Installation
 
-Install `eslint-config-iamturns` and required peer dependencies:
+This module is distributed via [npm](https://www.npmjs.com/) which is bundled with [node](https://nodejs.org).
 
 ```bash
-npx install-peerdeps --dev eslint-config-iamturns
+npm install eslint-config-iamturns --save-dev
 ```
 
 Within your ESLint config file:
