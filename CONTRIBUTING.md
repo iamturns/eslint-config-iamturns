@@ -17,7 +17,3 @@ To make sure everything is working:
 ```bash
 npm run validate
 ```
-
-## Peer dependencies
-
-Ensure all `eslint-plugin-` dependencies also appear in peerDependencies with the same version range.
