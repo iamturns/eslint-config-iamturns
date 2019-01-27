@@ -1,12 +1,10 @@
 module.exports = {
-  extends: ["airbnb", "prettier", "prettier/react"],
-  parserOptions: {
-    ecmaVersion: 2018,
-    ecmaFeatures: {
-      jsx: true,
-    },
-    sourceType: "module",
-  },
+  extends: [
+    // airbnb-typescript config is optimised for TS, but will fallback to regular airbnb for JS files. Best to re-use existing airbnb-typescript dependency here.
+    "eslint-config-airbnb-typescript",
+    "eslint-config-prettier",
+    "eslint-config-prettier/react",
+  ].map(require.resolve),
   env: {
     node: true,
     browser: true,
