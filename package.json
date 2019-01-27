@@ -1,33 +1,8 @@
 {
   "name": "eslint-config-iamturns",
-  "version": "0.0.0-semantically-released",
   "description": "ESLint rules for my projects",
-  "scripts": {
-    "format": "kcd-scripts format && kcd-scripts lint --fix",
-    "lint": "kcd-scripts lint",
-    "validate": "kcd-scripts validate",
-    "precommit": "kcd-scripts precommit",
-    "semantic-release": "semantic-release",
-    "upgrade": "iamturns-scripts upgrade",
-    "upgrade-latest": "iamturns-scripts upgrade-latest",
-    "reinstall": "iamturns-scripts reinstall",
-    "reset": "iamturns-scripts reset"
-  },
-  "dependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.0.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
-  },
-  "devDependencies": {
-    "eslint": "^5.6.0",
-    "iamturns-scripts": "^1.0.2",
-    "kcd-scripts": "0.36.1",
-    "semantic-release": "15.9.12"
-  },
-  "author": "Matt Turnbull <matt@iamturns.com> (https://iamturns.com)",
   "license": "MIT",
+  "author": "Matt Turnbull <matt@iamturns.com> (https://iamturns.com)",
   "homepage": "https://github.com/iamturns/eslint-config-iamturns",
   "repository": {
     "type": "git",
@@ -35,5 +10,34 @@
   },
   "bugs": {
     "url": "https://github.com/iamturns/eslint-config-iamturns/issues"
+  },
+  "version": "0.0.0-development",
+  "scripts": {
+    "pre-commit": "lint-staged",
+    "format": "run-s format:package format:prettier format:eslint",
+    "format:eslint": "eslint --cache --fix ./ >/dev/null 2>&1 || true",
+    "format:package": "prettier-package-json --write",
+    "format:prettier": "prettier --write '**/*.{json,md,yml}' '.editorconfig' 'LICENSE'",
+    "lint": "eslint --cache ./",
+    "reinstall": "iamturns-scripts reinstall",
+    "reset": "iamturns-scripts reset",
+    "upgrade": "iamturns-scripts upgrade",
+    "validate": "npm run lint"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-iamturns": "^1.0.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "husky": "^1.1.1",
+    "iamturns-scripts": "^5.0.0",
+    "lint-staged": "^8.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.15.3",
+    "prettier-package-json": "^2.0.1",
+    "typescript": "~3.1.1"
   }
 }

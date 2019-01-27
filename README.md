@@ -6,27 +6,9 @@ Combination of [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascr
 
 Supports modern JavaScript: es2018, modules, jsx, jest, etc.
 
-## Table of Contents
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Installation](#installation)
-  - [Prettier](#prettier)
-- [FAQ](#faq)
-  - [I do not require all the enabled features (es2018, jest, etc)](#i-do-not-require-all-the-enabled-features-es2018-jest-etc)
-  - [Why use Prettier? Why not just use ESLint alone?](#why-use-prettier-why-not-just-use-eslint-alone)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Maintaining](#maintaining)
-- [Author](#author)
-- [License](#license)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Installation
 
-This module is distributed via [npm](https://www.npmjs.com/) which is bundled with [node](https://nodejs.org).
+This module is distributed via [npm](https://www.npmjs.com/) which is bundled with [Node.js](https://nodejs.org).
 
 ```bash
 npm install eslint-config-iamturns --save-dev
@@ -64,18 +46,24 @@ This may come at a very small speed penalty. If this becomes a problem, you can 
 
 - Check [awesome-eslint](https://github.com/dustinspecker/awesome-eslint) for ideas
 
-## Contributing
+## Additional Documentation
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+- [CHANGELOG.md](CHANGELOG.md)
+- [DEVELOPING.md](DEVELOPING.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [MAINTAINING.md](MAINTAINING.md)
 
-## Maintaining
+## Related
 
-See [MAINTAINING.md](MAINTAINING.md).
+- [AIRBNB](https://example.com)
+- [Prettier](https://example.com)
 
-## Author
+## Credits
 
-[Matt Turnbull](https://iamturns.com) <[matt@iamturns.com](mailto:matt@iamturns.com)>
+Authored and maintained by Matt Turnbull ([iamturns.com](https://iamturns.com) / [@iamturns](https://twitter.com/iamturns))
+
+To all [contributors](https://github.com/iamturns/eslint-config-iamturns/graphs/contributors) (if you exist) - thank you!
 
 ## License
 
-Open source software [licensed as MIT](https://github.com/iamturns/eslint-config-iamturns/blob/master/LICENSE).
+Open source [licensed as MIT](https://github.com/iamturns/eslint-config-iamturns/blob/master/LICENSE).
